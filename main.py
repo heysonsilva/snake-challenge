@@ -4,7 +4,7 @@ import random
 
 pygame.init()
 
-# DIMENSÕES DA TELA
+# DIMENSÕES 
 tamanho_tela = (800, 800)
 tela = pygame.display.set_mode(tamanho_tela)
 
