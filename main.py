@@ -5,7 +5,7 @@ import random
 pygame.init()
 
 # DIMENSÕES 
-tamanho_tela = (800, 800)
+tamanho_tela = (1000, 1000)
 tela = pygame.display.set_mode(tamanho_tela)
 
 # ATRIBUINDO O TÍTULO DO JOGO
@@ -162,4 +162,4 @@ while True:
     
 
     # CONTROLAR A TAXA DE ATUALIZAÇÃO DO JOGO
-    clock.tick(15)
+    clock.tick(30)
